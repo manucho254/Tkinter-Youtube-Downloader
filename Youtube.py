@@ -87,6 +87,7 @@ def download_playlist():
         pl = Playlist(url)
         for video in pl.videos:
             video.streams.first().download()
+            messagebox.showinfo("Success", "Playlist Downloaded")
     except:
         messagebox.showerror("Error", "Please insert Url.!!")
 
