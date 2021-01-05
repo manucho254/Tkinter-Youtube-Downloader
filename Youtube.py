@@ -1,6 +1,5 @@
-from pytube import YouTube
+from pytube import YouTube,Playlist
 from tkinter import *
-from pytube import Playlist
 from tkinter import messagebox
 
 root = Tk()
